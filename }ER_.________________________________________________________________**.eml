@@ -1,0 +1,125 @@
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=lt3XcZM1V3Ii8/9Fq9SSpBZkyws1/sN9f3qf/xMag8LMM7SvbnONkjcea6v+oHmJrlD1QwuhZdVutNYWOvkWv5m+hMWo4KmxaYuO8iF+UvzTBFqtgbii1NWo1YMsGxWr1Z/zahVOiiaHg1XrxVfX4kGo5lsa6FXgspI4JuHOvG/v0SjdH9hLwfSLB51/CAcD5TOnq8NNTfj9UA2daie0pK4XPAQaKUBf+zvt9gPCvmlXsA+HzIduY1+ZoVmpqvpd9jT4T2fTr4hSJWKU3FPzir+7otp50w8/BGnVCszE1GxXenLc+1fICKND7qgo8b3CWGckjJ1EwE0mcYbjUIh3IA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=xcAgv8fJrZBWlr80NtZoTw8WKYsIak3CTHtuAidaFag=;
+ b=DDrMfLMpG+d22Ff852k1xRa66XWHRNd+3DM2Lb5leCfiVyCWfFhMF92J3UKAkch1Ycam9u/eOTbHDGyn923QN1F3y/z9owFLAk7ClD9v+sRUQwtyKl2vIvy6Fe59ozZf1UejNXOtkK1AKsGTjxBNZrsBwsybU7fevCOZdM4wpZvuue8Q9MiJeiBK7kDwlJqV/wE97NVaOlR1u77zsAlw3NMHbOktycKj4sYwj4/Zp6SQ+A2ANrOn9euQdmcvvydZG+G9bdTNxDppBV5rUNyN1fQNewnuVxqYLscVAZ+xi/czdlBazeNBnvsaMG3u7t0enBsXzhv71QptMa1aqb123g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=xcAgv8fJrZBWlr80NtZoTw8WKYsIak3CTHtuAidaFag=;
+ b=r+c86sifZ867H/rm0EOZMKwnLJ0L2CQxTjwP9k1juAqqt+fBKGLdmdQJ7OHacl6Pl3V2YDh8ebOen6ljnoxPLDFE8nl0EuYNXkZVhJG4v9+giK4YWwIMQIfzKbRjYkjD2ueQqEViG2wWoRQsRWR2nBB45Ym9fvT0ADZo8vQu7lDwuQppyKgGG234B2ZyS8/rrISc/I0/A+fuCoAgzQjd98vCB/UmdowBLfB1rB3tTiLLWpgSen8Cg/gjT8jFfn08xT4TWv0GRZ+x/JSyFskofgrkzFdyVdQt8A4E1QwOOMgs030vs/ZjN3OWQGMR2bLLNY2K/iRSNK26ZFzLw9SFQw==
+Received: from PH0P221MB0784.NAMP221.PROD.OUTLOOK.COM (2603:10b6:510:fb::15)
+ by SN4P221MB0828.NAMP221.PROD.OUTLOOK.COM (2603:10b6:806:20f::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5944.19; Fri, 6 Jan
+ 2023 21:46:46 +0000
+Received: from PH0P221MB0784.NAMP221.PROD.OUTLOOK.COM
+ ([fe80::40ab:6505:fa7d:8ac6]) by PH0P221MB0784.NAMP221.PROD.OUTLOOK.COM
+ ([fe80::40ab:6505:fa7d:8ac6%9]) with mapi id 15.20.5944.019; Fri, 6 Jan 2023
+ 21:46:46 +0000
+From: KENSoCKS8ARBI3 8ARBI3OT <ilivedabortion@hotmail.com>
+To: "@DEMONOIDIONS/" <demonoidions@groups.outlook.com>
+Subject: }ER/.________________________________________________________________**
+Thread-Topic: }ER/.________________________________________________________________**
+Thread-Index: AQHZIhhfkWQuXFEy9kKfWji8eCSgfw==
+Date: Fri, 6 Jan 2023 21:46:46 +0000
+Message-ID: <PH0P221MB0784CDCB32CD5673B576CE7BD6FB9@PH0P221MB0784.NAMP221.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+suggested_attachment_session_id: cdcec2c3-35ee-3d7c-20e0-d961c54ead16
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [h8l5wVd3bVfnZYAvbseOA/hi6j5eH3ArSZdVvF4dneb6zv+h3TnVsbXryXSt7zWL]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PH0P221MB0784:EE_|SN4P221MB0828:EE_
+x-ms-office365-filtering-correlation-id: 098d1962-a6e1-4915-7288-08daf02f820c
+x-ms-consumer-group-expansion-loop: demonoidions@groups.outlook.com
+x-ms-exchange-group-expansion-loop: demonoidions@groups.outlook.com
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: Ww+XhqvaHhzj20p2YnNOWxhdXBLo2o6mmZ+2B6M0AJ9WHP2iNCULgG0XeeYLkFpE20Q0LfNNr9wBL4nvkoKqSIxKI9fbTvaIgGAR2N4ZoUpYcO70vBSh6BnB0zxLs5QzPl5HCjfA4d1n0CWoJ8j8KOduAaeczIb0gXfJthryc+6Lg1PicHmTUXhDluRY5yxMOa5Wx8lp43oM4SxYC4V5wL/4IimZUPYuoigb+vi6A0dJ9fovFqOwisQXluOwMhrVdUWcxIG3Aq4rnVLTCpvZe4kd1Awm0ofR5uwXv/SQiKqVWGRfSx1y/mam1AS+3jG0GuDwTbgZsOaYUfSD6nHOcBhBho6KyMLMT82OiuV9yd8p1kpB/WynmX5aLmThG0GuxBntLuTQbgnqYZu1zdOjZw==
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?iso-8859-1?Q?MySN/qSOj1HP0A5A1fjAT4HnZzLc0g+MXbt+X1cuw7E3ELZElv4BMdcUl9?=
+ =?iso-8859-1?Q?W26QnUeBTisQ92Fd9IDN/nvC2x536f64TdS9TYjQV/Qtf/PxynoDcAKcX/?=
+ =?iso-8859-1?Q?kNNCW7EKC7nqhKl+q2CfcfEeIXu9trQ7bx9wYa14euasPiYupoYLS0/9Tm?=
+ =?iso-8859-1?Q?9oHLDpzDv4Ke76+Icz22QvfxOaLFSrb6ovqJK16FHbV4FuzyR2wWt8ynH9?=
+ =?iso-8859-1?Q?KBasmBbYbiQDXvVnPD99QE9U9UkavoYt5sCWhnoT1xFsJev0HC8TGntGDc?=
+ =?iso-8859-1?Q?xq+KDipeQzMCL1V+9ShnVoYTnXzLuDPt/f5wsgzFq8c6kFBj9dN9GPUwIb?=
+ =?iso-8859-1?Q?kx6SpxHafhAGGdvF+BdYkNCGbHMl2hgHLjoCRONRovZrjxvzP0/9wbgMf3?=
+ =?iso-8859-1?Q?3gOz5L/m9X+q5o8iwPpII9IE2cCXuPzoNYnAI04XF2Pen179F9klVX8Vcr?=
+ =?iso-8859-1?Q?YhwnBnrcjYL/dzspb1Eken2++xSmYymCpOWWwLqJFBROsMulA3e67pgSOY?=
+ =?iso-8859-1?Q?hNGAwST5plf8nzqb82dNWMCflbCDY0Vck/aAQVhj5qTQvRasnxm0mXA4gc?=
+ =?iso-8859-1?Q?7VjQAw9ruPPFzjiYhmpmbbP4JRAjhzpEE+4TTI/7COVGjxddyfY7hb1HIo?=
+ =?iso-8859-1?Q?RaJbh7MSQRQjKrGhVwDYcBPlhu+Wg6RpU+fW1T2zq7/xE27EOMPZB+BdZE?=
+ =?iso-8859-1?Q?79lBZzqLdV7YVcIQXdqRL5fW+54H2WOQP/8eoBKoSjRhFVlDR1I3zu3rSC?=
+ =?iso-8859-1?Q?YIYZEoJC8Uh6ND5W0pvhCJ4U1KzJjCFHcfWbyJtWSRVB7xMdPEjlSg6dwC?=
+ =?iso-8859-1?Q?aUpOk1XfTh8kI0v7trj8K+xv9CV5YcmkExY29ZKyiHmoMm13XJYnSd3+aR?=
+ =?iso-8859-1?Q?iHq+rXVyironDt5/ztceem8jt1NhWqR/19aw8wVGivHStFmvJa/w1Gi664?=
+ =?iso-8859-1?Q?TRTF0YSzuysJ+g1CY74ec1TmNHfCTlD5PIgId3s/za+OOdyGvN64KcHqde?=
+ =?iso-8859-1?Q?MDkrf9xq7usN2vH1JRbHuh/OmihQY6u2BKK6duj7WbLBVPZEyfjNPVJvUO?=
+ =?iso-8859-1?Q?vksLyl9tSqIRVONvVhbscn/I1O3Sta4nPGyKsh+oITiJHZNxPB75rRwkGL?=
+ =?iso-8859-1?Q?6zFcCLx06CFTQNWTVdWU7nTuX+b20fumwhKyQ83GcATYCRPP6ttqOTFAT/?=
+ =?iso-8859-1?Q?3GbLYnVj/znTPJbnGZ5SNwfTp6zD+rCO4MBDatVRJV7JkhpGDds1VanZEm?=
+ =?iso-8859-1?Q?B8ifrk0LZnys+hDQdE224LlzNGPPEUb/Z3B05WDw87YfO9mCCWzV93nbqp?=
+ =?iso-8859-1?Q?QjBvVMDulNDuLhdRJg2/zhnVyFVtd+xEnOxcEVRJwd09d+xBrJMIBzMgq1?=
+ =?iso-8859-1?Q?BJ6XGdMl5AUMYNAwbUKevGk+fgtbKFmw=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PH0P221MB0784CDCB32CD5673B576CE7BD6FB9PH0P221MB0784NAMP_"
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-f5d03.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PH0P221MB0784.NAMP221.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 098d1962-a6e1-4915-7288-08daf02f820c
+X-MS-Exchange-CrossTenant-originalarrivaltime: 06 Jan 2023 21:46:46.1704
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN4P221MB0828
+MIME-Version: 1.0
+
+--_000_PH0P221MB0784CDCB32CD5673B576CE7BD6FB9PH0P221MB0784NAMP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+--_000_PH0P221MB0784CDCB32CD5673B576CE7BD6FB9PH0P221MB0784NAMP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof"><span style=3D"font-family: Calibri, Arial, H=
+elvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0); background-colo=
+r: rgb(255, 255, 255);"><br>
+</span></div>
+<div class=3D"elementToProof">
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div id=3D"Signature">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size: 12pt; font-family: Cal=
+ibri, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); background-color: =
+rgb(255, 255, 255);">
+<br>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_PH0P221MB0784CDCB32CD5673B576CE7BD6FB9PH0P221MB0784NAMP_--
